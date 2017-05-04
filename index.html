@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Youtube - Embed jQuery Plugin</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="plugin.js"></script>
+    <style>
+    #playVideo {
+      width:  1024px;
+      height: 768px;
+      display: flex;
+      justify-content: center;
+    }
+    img.youtube-thumb {
+      width: 100%;
+    }
+    div.play-button {
+      height: 72px;
+      width: 72px;
+      align-self: center;
+      position: absolute;      
+      background: url("http://i.imgur.com/TxzC70f.png") no-repeat;
+    }
+    .youtube-iframe {
+      width: 100%;
+      height: 100%;
+      width:  1024px;
+      height: 768px;
+      position: absolute;
+      margin: 0 auto;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="playVideo" data-youtube-id="qFLhGq0060w"></div>
+  </body>
+</html>
